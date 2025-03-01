@@ -1,0 +1,102 @@
+/* simple clean style with greys and whites */
+body {
+    /* background-color: #f0f0f0; */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*
+Description: Foundation 4 docs style for highlight.js
+Author: Dan Allen <dan.j.allen@gmail.com>
+Website: http://foundation.zurb.com/docs/
+Version: 1.0
+Date: 2013-04-02
+*/
+
+#output {
+  white-space: pre;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 26px;
+}
+
+.hljs {
+    /* background: #eee; */
+    color: black;
+  }
+  
+  
+  .hljs-emphasis {
+    font-style: italic;
+  }
+  
+  .hljs-built_in, 
+  .hljs-title.class_, 
+  .hljs-class,
+  .hljs-meta, 
+  .hljs-title {
+    color: #992588;
+  }
+
+  .hljs-strong,
+  .hljs-string,
+  .hljs-deletion,
+  .hljs-link,
+  .hljs-emphasis,
+  .hljs-attribute,
+  .hljs-addition {
+    color: #8AC007;
+    font-weight: bold;
+  }
+  
+  .hljs-strong {
+    font-weight: bold;
+  }
+  
+  .hljs-quote,
+  .hljs-comment,
+  .hljs-title {
+    color: #9A0000;
+    font-style: italic;
+  }
+  
+  
+  .hljs-class .hljs-title,
+  .hljs-title.class_,
+  .hljs-type,
+  .hljs-title.function_,
+  .hljs-variable,
+  .hljs-template-variable,
+  .hljs-section
+   {
+    color: #2191FB;
+    font-weight: bold;
+  }
+  
+  .hljs-code,
+  .hljs-number,
+  .hljs-literal,
+  .hljs-keyword,
+  .hljs-symbol,
+  .hljs-regexp,
+  .hljs-selector-tag {
+    color: #F9A01D;
+    font-weight: bold;
+  }
+  
+  
+  .hljs-tag,
+  .hljs-name,
+  .hljs-selector-id,
+  .hljs-selector-class,
+  .hljs-bullet,
+  .hljs-strong,
+  .hljs-string,
+  .hljs-deletion {
+    color: #8AC007; 
+    font-weight: bold;
+  }
+
+  .hljs-subst {
+    color: inherit;
+    font-weight: inherit;
+  }
