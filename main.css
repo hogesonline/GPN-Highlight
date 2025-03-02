@@ -6,11 +6,13 @@ body {
     padding: 0;
 }
 /*
-Description: Foundation 4 docs style for highlight.js
-Author: Dan Allen <dan.j.allen@gmail.com>
-Website: http://foundation.zurb.com/docs/
+Description: GPN Highlight styles for highlight.js 
+Based on Foundation 4 docs style for highlight.js by Dan Allen
+Author: Amanda Hogan hogesonline@gmail.com 
+Website: hogesonline.github.io
+License: MIT
 Version: 1.0
-Date: 2013-04-02
+Date: 2025-01-03
 */
 
 #output {
@@ -35,6 +37,7 @@ Date: 2013-04-02
   .hljs-meta, 
   .hljs-title {
     color: #992588;
+    font-weight: bold;
   }
 
   .hljs-strong,
